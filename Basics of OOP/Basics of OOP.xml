@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BasicsOfOOP</name>
+    </assembly>
+    <members>
+        <member name="T:BasicsOfOOP.Bubbles.BubbleSort">
+            <summary>
+            Bubble sorting class
+            </summary>
+        </member>
+        <member name="M:BasicsOfOOP.Bubbles.BubbleSort.BubbleSorting(System.Int32[0:,0:],BasicsOfOOP.Bubbles.IRowColumnComparer[])">
+            <summary>
+            Default Bubble sorter
+            <para>Sorts an array with the given method</para>
+            </summary>
+            <param name="array">Array to sort</param>
+            <param name="comparer">Compare condition</param>
+        </member>
+        <member name="M:BasicsOfOOP.Bubbles.BubbleSort.SwapArrays(System.Int32[0:,0:],System.Int32,System.Int32)">
+            <summary>
+            Swaps elements of a 2D array
+            </summary>
+            <param name="array">This array</param>
+            <param name="first">First element</param>
+            <param name="second">Second element</param>
+        </member>
+        <member name="T:BasicsOfOOP.Bubbles.IRowColumnComparer">
+            <summary>
+            Exposes a method that compares Rows and Columns
+            </summary>
+        </member>
+        <member name="M:BasicsOfOOP.Bubbles.IRowColumnComparer.Compare(System.Int32[0:,0:],System.Int32,System.Int32)">
+            <summary>
+            The method that compares Rows and Columns
+            </summary>
+            <param name="array">Array to compare</param>
+            <param name="x1">X coordinate</param>
+            <param name="x2">Y coordinate</param>
+            <returns>Comparable condition</returns>
+        </member>
+        <member name="T:BasicsOfOOP.Bubbles.SortByMax">
+            <summary>
+            A class that holds methods that compares rows and columns
+            </summary>
+        </member>
+        <member name="M:BasicsOfOOP.Bubbles.SortByMax.#ctor(System.Boolean)">
+            <summary>
+            Initializes a new instance the <see cref="T:BasicsOfOOP.Bubbles.SortByMax"/> class
+            </summary>
+            <param name="increasing">Is increasing</param>
+        </member>
+        <member name="M:BasicsOfOOP.Bubbles.SortByMax.Compare(System.Int32[0:,0:],System.Int32,System.Int32)">
+            <summary>
+            The method that compares Rows and Columns
+            </summary>
+            <param name="array">Array to compare</param>
+            <param name="x1">X coordinate</param>
+            <param name="x2">Y coordinate</param>
+            <returns>Comparable condition</returns>
+        </member>
+        <member name="M:BasicsOfOOP.Bubbles.SortByMax.GetMax(System.Int32[0:,0:],System.Int32)">
+            <summary>
+            Calculates the max element from the given array
+            </summary>
+            <param name="array">This 2D array</param>
+            <param name="position">X position of 2D array</param>
+            <returns>Max element of the array</returns>
+        </member>
+        <member name="T:BasicsOfOOP.Bubbles.SortBySum">
+            <summary>
+            A class that holds methods that compares rows and columns
+            </summary>
+        </member>
+        <member name="M:BasicsOfOOP.Bubbles.SortBySum.#ctor(System.Boolean)">
+            <summary>
+            Initializes a new instance the <see cref="T:BasicsOfOOP.Bubbles.SortBySum"/> class
+            </summary>
+            <param name="increasing">Is increasing</param>
+        </member>
+        <member name="P:BasicsOfOOP.Bubbles.SortBySum.IsIncreasing">
+            <summary>
+            Gets an answer of how to sort
+            </summary>
+        </member>
+        <member name="M:BasicsOfOOP.Bubbles.SortBySum.Compare(System.Int32[0:,0:],System.Int32,System.Int32)">
+            <summary>
+            The method that compares Rows and Columns
+            </summary>
+            <param name="array">Array to compare</param>
+            <param name="x1">X coordinate</param>
+            <param name="x2">Y coordinate</param>
+            <returns>Comparable condition</returns>
+        </member>
+        <member name="M:BasicsOfOOP.Bubbles.SortBySum.GetSum(System.Int32[0:,0:],System.Int32)">
+            <summary>
+            Calculates the total sum of given array
+            </summary>
+            <param name="array">This 2D array</param>
+            <param name="position">X position of 2D array</param>
+            <returns>Sum of the array</returns>
+        </member>
+        <member name="T:BasicsOfOOP.Polynomial">
+            <summary>
+            Represents class that holds Polynomial methods
+            </summary>
+        </member>
+        <member name="T:BasicsOfOOP.Shapes.Circle">
+            <summary>
+            Class that represents Circle.
+            </summary>
+        </member>
+        <member name="F:BasicsOfOOP.Shapes.Circle.PI">
+            <summary>
+            Represents the PI constant
+            </summary>
+        </member>
+        <member name="M:BasicsOfOOP.Shapes.Circle.#ctor(System.Double)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BasicsOfOOP.Shapes.Circle"/> class
+            </summary>
+            <param name="radius">Radius of this circle</param>
+        </member>
+        <member name="P:BasicsOfOOP.Shapes.Circle.Radius">
+            <summary>
+            Gets the radius of this Circle
+            </summary>
+        </member>
+        <member name="M:BasicsOfOOP.Shapes.Circle.GetPerimeter">
+            <summary>
+            Calculates the perimeter from radius
+            </summary>
+            <returns>Perimeter of this circle</returns>
+        </member>
+        <member name="M:BasicsOfOOP.Shapes.Circle.GetArea">
+            <summary>
+            Calculates the area from radius
+            </summary>
+            <returns>Area of this circle</returns>
+        </member>
+        <member name="T:BasicsOfOOP.Shapes.Rectangle">
+            <summary>
+            Class that represents Rectangle form 
+            </summary>
+        </member>
+        <member name="M:BasicsOfOOP.Shapes.Rectangle.#ctor(System.Double,System.Double)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BasicsOfOOP.Shapes.Rectangle"/> class
+            </summary>
+            <param name="a">First side</param>
+            <param name="b">Second side</param>
+        </member>
+        <member name="P:BasicsOfOOP.Shapes.Rectangle.A">
+            <summary>
+            Gets the first side of this Shape
+            </summary>
+        </member>
+        <member name="P:BasicsOfOOP.Shapes.Rectangle.B">
+            <summary>
+            Gets the second side of this Shape
+            </summary>
+        </member>
+        <member name="M:BasicsOfOOP.Shapes.Rectangle.GetPerimeter">
+            <summary>
+            Calculates the perimeter
+            </summary>
+            <returns>Perimeter of this shape</returns>
+        </member>
+        <member name="M:BasicsOfOOP.Shapes.Rectangle.GetArea">
+            <summary>
+            Calculates the Area
+            </summary>
+            <returns>Area of this shape</returns>
+        </member>
+        <member name="T:BasicsOfOOP.Shapes.Square">
+            <summary>
+            Class that represents Square.
+            <para>Inherited from the <see cref="T:BasicsOfOOP.Shapes.Rectangle"/> class</para>
+            </summary>
+        </member>
+        <member name="M:BasicsOfOOP.Shapes.Square.#ctor(System.Double)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BasicsOfOOP.Shapes.Square"/> class
+            </summary>
+            <param name="a">Sides of this square</param>
+        </member>
+        <member name="T:BasicsOfOOP.Shapes.Triangle">
+            <summary>
+            Class that represents Triangle.
+            <para>Inherited from the <see cref="T:BasicsOfOOP.Shapes.Rectangle"/> class</para>
+            </summary>
+        </member>
+        <member name="M:BasicsOfOOP.Shapes.Triangle.#ctor(System.Double,System.Double,System.Double)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BasicsOfOOP.Shapes.Triangle"/> class
+            </summary>
+            <param name="a">Side a</param>
+            <param name="b">Side b</param>
+            <param name="c">Side c</param>
+        </member>
+        <member name="P:BasicsOfOOP.Shapes.Triangle.C">
+            <summary>
+            Gets the third side of this Shape
+            </summary>
+        </member>
+        <member name="M:BasicsOfOOP.Shapes.Triangle.GetPerimeter">
+            <summary>
+            Calculates the perimeter
+            </summary>
+            <returns>Perimeter of this shape</returns>
+        </member>
+        <member name="M:BasicsOfOOP.Shapes.Triangle.GetArea">
+            <summary>
+            Calculates the Area
+            </summary>
+            <returns>Area of this shape</returns>
+        </member>
+    </members>
+</doc>

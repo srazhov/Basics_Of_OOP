@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BasicsOfOOP.Tests</name>
+    </assembly>
+    <members>
+        <member name="T:BasicsOfOOP.Tests.BubbleSortTest">
+            <summary>
+            Tests of the <see cref="T:BasicsOfOOP.Bubbles.BubbleSort"/> class
+            </summary>
+        </member>
+        <member name="M:BasicsOfOOP.Tests.BubbleSortTest.BubbleSorting_SortingByMinimal">
+            <summary>
+            Test method of custom sorting method
+            </summary>
+        </member>
+        <member name="M:BasicsOfOOP.Tests.BubbleSortTest.BubbleSorting_TestMultipleConditions">
+            <summary>
+            Test method of custom multiple conditions sorting 
+            </summary>
+        </member>
+        <member name="T:BasicsOfOOP.Tests.PolynomialTest">
+            <summary>
+            Tests of the <see cref="T:BasicsOfOOP.Polynomial"/> class
+            </summary>
+        </member>
+        <member name="T:BasicsOfOOP.Tests.ShapesTest">
+            <summary>
+            Tests of the <see cref="T:BasicsOfOOP.Shapes.Square"/> class
+            </summary>
+        </member>
+        <member name="M:BasicsOfOOP.Tests.ShapesTest.GetPerimeter_ReturnAreaOfTriangle(System.Double,System.Double,System.Double)">
+            <summary>
+            Test method of <see cref="M:BasicsOfOOP.Shapes.Triangle.GetArea"/> method
+            </summary>
+            <param name="a">A side</param>
+            <param name="b">B side</param>
+            <param name="C">C side</param>
+            <returns>Triangle's perimeter</returns>
+        </member>
+    </members>
+</doc>
