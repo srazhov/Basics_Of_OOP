@@ -24,6 +24,21 @@
             Tests of the <see cref="T:BasicsOfOOP.Polynomial"/> class
             </summary>
         </member>
+        <member name="M:BasicsOfOOP.Tests.PolynomialTest.Monomial_ToString_Test(System.Double,System.Char,System.Nullable{System.Int32})">
+            <summary>
+            Test of the <see cref="M:BasicsOfOOP.Monomial.ToString"/> method
+            </summary>
+        </member>
+        <member name="M:BasicsOfOOP.Tests.PolynomialTest.Polynomial_ToString_Test">
+            <summary>
+            Test of the <see cref="M:BasicsOfOOP.Polynomial.ToString"/> method
+            </summary>
+        </member>
+        <member name="M:BasicsOfOOP.Tests.PolynomialTest.Monomial_Add_Test">
+            <summary>
+            Test of the <see cref="M:BasicsOfOOP.Monomial.Add(BasicsOfOOP.Monomial,BasicsOfOOP.Monomial,BasicsOfOOP.Monomial@)"/> method
+            </summary>
+        </member>
         <member name="T:BasicsOfOOP.Tests.ShapesTest">
             <summary>
             Tests of the <see cref="T:BasicsOfOOP.Shapes.Square"/> class

@@ -1,6 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿//-----------------------------------------------------------------------
+// <copyright file="SortByMax.cs" company="EPAM">
+// Copyright (c) Company. All rights reserved.
+// </copyright>
+// <author>Srazhov Miras</author>
+//-----------------------------------------------------------------------
 
 namespace BasicsOfOOP.Bubbles
 {
@@ -10,7 +13,7 @@ namespace BasicsOfOOP.Bubbles
     public class SortByMax : SortBySum
     {
         /// <summary>
-        /// Initializes a new instance the <see cref="SortByMax"/> class
+        /// Initializes a new instance of the <see cref="SortByMax"/> class
         /// </summary>
         /// <param name="increasing">Is increasing</param>
         public SortByMax(bool increasing) : base(increasing) { }
@@ -26,7 +29,7 @@ namespace BasicsOfOOP.Bubbles
         {
             if (IsIncreasing)
             {
-                if(GetMax(array, x1) > GetMax(array, x2))
+                if (GetMax(array, x1) > GetMax(array, x2))
                 {
                     return true;
                 }
@@ -53,7 +56,7 @@ namespace BasicsOfOOP.Bubbles
             int max = 0;
             for (int i = 0; i < array.GetLength(1); i++)
             {
-                if(array[position, i] > max)
+                if (array[position, i] > max)
                 {
                     max = array[position, i];
                 }

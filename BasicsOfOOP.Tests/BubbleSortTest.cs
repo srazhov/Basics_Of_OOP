@@ -72,7 +72,6 @@ namespace BasicsOfOOP.Tests
             };
 
             Assert.AreEqual(expected, actual);
-
         }
     }
 }

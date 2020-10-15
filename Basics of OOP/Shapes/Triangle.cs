@@ -5,10 +5,10 @@
 // <author>Srazhov Miras</author>
 //-----------------------------------------------------------------------
 
-using System;
-
 namespace BasicsOfOOP.Shapes
 {
+    using System;
+    
     /// <summary>
     /// Class that represents Triangle.
     /// <para>Inherited from the <see cref="Rectangle"/> class</para>

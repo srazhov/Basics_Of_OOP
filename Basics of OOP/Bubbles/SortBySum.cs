@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="SortMinSum.cs" company="EPAM">
+// <copyright file="SortBySum.cs" company="EPAM">
 // Copyright (c) Company. All rights reserved.
 // </copyright>
 // <author>Srazhov Miras</author>
